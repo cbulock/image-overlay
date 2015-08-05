@@ -1,0 +1,32 @@
+@font-face{
+	font-family:'Source Sans Pro';
+	font-style:normal;
+	font-weight:400;
+	src:local('Source Sans Pro Regular'),url(//brick.a.ssl.fastly.net/fonts/sourcesanspro/400.woff) format('woff')
+}
+
+html, body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6875rem;
+	background-color: cadetblue;
+	color: #F0F0F0;
+}
+
+main {
+	& > div {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	canvas {
+		padding: 2em;
+		max-width: 500px;
+		max-height: 800px;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@import 'button';

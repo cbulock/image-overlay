@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Canvas Test</title>
+		<link href='main.css' rel='stylesheet'>
+		<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+		<script src='main.js'></script>
+	</head>
+	<body>
+		<main>
+			<div>
+				<div>
+					<p>Select your own photo:</p>
+					<input type='file' />
+				</div>
+				<div>
+				<p>Select overlay:</p>
+					<select id='overlay' class='overlay button'>
+						<option value='usa'>US Flag</option>
+						<option value='rainbow'>Rainbow</option>
+					</select>
+				</div>
+			</div>
+			<canvas></canvas>
+			<div>
+				<a href='' id='download' class='download primary button' download='profile.png' data-status='disabled'>Download</a>
+			</div>
+		</main>
+	</body>
+</html>
